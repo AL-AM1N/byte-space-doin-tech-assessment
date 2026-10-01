@@ -43,11 +43,11 @@ const CATEGORIES = [
 
 export default function CategoriesSection() {
   return (
-    <section aria-label="Course categories" className="py-16 sm:py-24 bg-white">
+    <section aria-label="Course categories" className="pb-16 sm:pb-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-6xl mx-auto">
-          <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-950 tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-950 tracking-tight leading-tight">
             Explore Diverse Learning Paths at Bytespace
           </h2>
           <p className="mt-4 text-sm sm:text-base text-gray-500 leading-relaxed max-w-4xl mx-auto">

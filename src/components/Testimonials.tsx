@@ -39,7 +39,7 @@ export default function Testimonials() {
         {/* Header Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-start">
           <div className="lg:col-span-6">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-950 tracking-tight leading-[1.18] max-w-xl">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-950 tracking-tight leading-[1.18] max-w-xl">
               Discover What Our Community Is Saying
             </h2>
           </div>

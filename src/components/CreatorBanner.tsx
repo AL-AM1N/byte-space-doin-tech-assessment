@@ -92,7 +92,7 @@ export default function CreatorBanner() {
 
       {/* Main Content */}
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-white leading-tight">
           Unlock Your Potential as a <br className="hidden sm:inline" />
           Creator with ByteSpace
         </h2>

@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Floating animation effects */
-/* @keyframes float-slow {
+@keyframes float-slow {
   0%, 100% {
     transform: translateY(0px) rotate(0deg);
   }
@@ -101,4 +101,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .animate-pulse-subtle {
   animation: pulse-subtle 4s ease-in-out infinite;
-} */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float-slow,
+  .animate-float-reverse,
+  .animate-pulse-subtle {
+    animation: none;
+  }
+}

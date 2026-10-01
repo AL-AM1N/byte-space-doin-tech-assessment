@@ -16,7 +16,7 @@ export default function ProfessionalGrowth() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Content & Stats */}
           <div className="lg:col-span-6 space-y-6 max-w-xl">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-950 tracking-tight leading-[1.15]">
+            <h2 className="text-xl sm:text-xl md:text-4xl font-bold text-gray-950 tracking-tight leading-[1.15]">
               Your Path to Professional Growth Starts Here!
             </h2>
 

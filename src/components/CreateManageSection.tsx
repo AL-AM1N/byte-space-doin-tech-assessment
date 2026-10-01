@@ -99,7 +99,7 @@ export default function CreateManageSection() {
 
           {/* Right Column: Text & Checklist */}
           <div className="lg:col-span-6 space-y-6 max-w-xl order-1 lg:order-2">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-950 tracking-tight leading-[1.15]">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-950 tracking-tight leading-[1.15]">
               Create &amp; Manage <br />
               Courses Easily.
             </h2>
